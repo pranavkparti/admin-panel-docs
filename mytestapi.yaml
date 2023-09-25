@@ -12,7 +12,7 @@ servers:
           - dev     # Development server
           - test    # Test server
 paths:
-  '/authenticate':
+  '/auth':
     post:
       tags:
         - Authentication
