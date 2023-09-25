@@ -12,11 +12,11 @@ servers:
           - dev     # Development server
           - test    # Test server
 paths:
-  '/auth':
+  '/authenticate':
     post:
       tags:
         - Authentication
-      summary: Authenticate account
+      summary: Authenticate account testing changes here
       description: 'Authenticate the client using wallet name or id and password, and respond with a bearer token'
       parameters:
         - $ref: '#/components/parameters/treetrackerApiKeyParam'
